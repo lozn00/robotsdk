@@ -1,5 +1,18 @@
 apply plugin: 'java-library'
 
+//确保可以单独运行本项目
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     compileOnly files('libs/android.jar')//不编译进去。
