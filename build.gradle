@@ -1,18 +1,16 @@
-
 //确保可以单独运行本项目
 buildscript {
-  repositories {
+    repositories {
         mavenCentral()
         maven { url 'https://jitpack.io' }
 
         jcenter()
 
     }
-   /* dependencies {
+    dependencies {
+            classpath 'com.android.tools.build:gradle:3.0.1'
 
-        classpath 'com.android.tools.build:gradle:2.3.3'
-
-    }*/
+    }
 }
 apply plugin: 'java-library'
 
