@@ -4,12 +4,15 @@ apply plugin: 'java-library'
 buildscript {
     repositories {
         mavenCentral()
+        maven { url 'https://jitpack.io' }
+
         jcenter()
 
-        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+
+        classpath 'com.android.tools.build:gradle:2.3.3'
+
     }
 }
 
