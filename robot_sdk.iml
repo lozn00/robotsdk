@@ -30,5 +30,15 @@
     <orderEntry type="library" exported="" scope="PROVIDED" name="android" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="android" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="android" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1-javadoc" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1-sources" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
   </component>
 </module>
