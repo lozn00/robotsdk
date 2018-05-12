@@ -7,7 +7,7 @@ import cn.qssq666.robot.bean.MsgItem;
  * utf-8
  */
 
-public interface PluginCtronolInterface {
+public interface PluginControlInterface {
 	public void sendGroupMsg(MsgItem item);
 
 	public void sendQQMsg(MsgItem item);

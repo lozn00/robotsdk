@@ -18,7 +18,7 @@ public interface PluginInterface {
 	 * 当机器人插件被创建加载后，会回调配置api控制类给插件，插件可以自己存储为成员变量，在适当的逻辑中进行操作，此api接口回调支持踢人禁言,发消息
 	 * @param instance
 	 */
-	public void onReceiveControlApi(PluginCtronolInterface instance);
+	public void onReceiveControlApi(PluginControlInterface instance);
 
 	/**
 	 * 插件的版本号
