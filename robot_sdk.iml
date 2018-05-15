@@ -27,9 +27,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="F__src_git_project_qq_qqrobot_robot_sdk_libss_android_jar" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="_Users_aaa_Documents_dev_robot_project_robot_sdk_libss_android_jar" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="android" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="android" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="android" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
+    <orderEntry type="library" exported="" name="robot_sdk.robot_sdk-0.1" level="project" />
   </component>
 </module>
