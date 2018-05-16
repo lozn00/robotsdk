@@ -1,11 +1,14 @@
 package cn.qssq666.robot.plugin.sdk.interfaces;
 
 import android.content.Context;
+import android.view.View;
+import android.view.ViewGroup;
 
 import cn.qssq666.robot.bean.MsgItem;
 
 /**
  * Created by qssq on 2018/1/21 qssq666@foxmail.com
+ * 2018-05-16 23:20:10 当前api需要机器人版本是
  */
 
 public interface PluginInterface {
@@ -84,6 +87,14 @@ public interface PluginInterface {
 	boolean onReceiveMsgIsNeedIntercept(MsgItem item);
 
 	/**
+	 * 是否拦截表示是否不交给其他插件管理，比如
+	 * @param item
+	 * @param type 这里的type可以代表很多含义，方便扩展，这里的意思代表是 如 0 代表 撤回的消息之类的 ，暂时没啥用的。不会被用到。
+	 * @return
+	 */
+	boolean onReceiveOtherIntercept(MsgItem item,int type);
+
+	/**
 	 * 这个方法暂时没用，
 	 */
 	void onDestory();
@@ -94,5 +105,12 @@ public interface PluginInterface {
 	 * @param robotConfigInterface
 	 */
 	void onReceiveRobotConfig(RobotConfigInterface robotConfigInterface);
+
+	/**
+	 * 为了给用户提供方便，从宿主的界面点击可以直接打开一个新的界面。这个界面由插件自己提供的。
+	 * @param viewGroup
+	 * @return 代表返回的ui界面,不要自己通过viewgroup.addView()进去，只提供参数作为参考而已.如果返回null表示没有ui界面了。有就返回一个view，宿主将会把它插入到一个界面中去。
+	 */
+	View onConfigUi(ViewGroup viewGroup);
 
 }
