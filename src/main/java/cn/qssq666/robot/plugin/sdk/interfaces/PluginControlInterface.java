@@ -13,6 +13,27 @@ public interface PluginControlInterface {
 	public void sendQQMsg(MsgItem item);
 
 	/**
+	 * 执行万能操作  比如执行 type=0 arg= sql语句，那么表示控制宿主执行sql的更新操作,以后插件是否篡改吧 ，通过这里授权也可以走这个逻辑呢。
+	 * @param type
+	 * @param arg
+	 */
+	public void executeAction(int type,Object... arg);
+	public void executeSql(String sql);
+
+	/**
+	 * executeShell()实际上走的逻辑还是executeAction得逻辑
+	 * @param shell
+	 */
+	public void executeShell(String shell);
+
+	/**
+	 * 这里的操作实际上内部还是走的是executeAction的逻辑
+	 * @param key
+	 * @param value
+	 */
+	public void executeWriteConfig(String key,String value);
+
+	/**
 	 * 发送任意消息,类型自己控制,根据{@link MsgItem#setCode(int)}
 	 * 进行配置.暂时不提供具体说明,总之此api一样可以实现禁言踢人. 发送卡卡片消息
 	 *
