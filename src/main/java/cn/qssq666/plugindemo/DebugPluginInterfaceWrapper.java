@@ -1,4 +1,4 @@
-package cn.qssq666.robot.plugin.sdk.interfaces;
+package cn.qssq666.plugindemo;
 
 import android.content.Context;
 import android.util.Log;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.Random;
+
+import cn.qssq666.robot.plugin.sdk.interfaces.IMsgModel;
 
 /**
  * Created by qssq on 2018/5/17 qssq666@foxmail.com
