@@ -145,6 +145,6 @@ public interface PluginControlInterface {
 	 * @param qq qq
 	 * @param picPath 图片路径
 	 */
-	public void sendPicMsg(MsgItem item, String group, String qq,String picPath);
+	public void sendPicMsg(IMsgModel item, String group, String qq,String picPath);
 
 }
