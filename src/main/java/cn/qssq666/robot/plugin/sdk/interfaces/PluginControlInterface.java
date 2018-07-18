@@ -113,4 +113,14 @@ public interface PluginControlInterface {
 	 */
 	boolean isPicMsg(MsgItem item);
 
+
+	/**
+	 * 发送图片消息 如果是私聊消息,group将被忽略,是否是私聊消息会根据item里面的type取。
+	 * @param item
+	 * @param group 群号
+	 * @param qq qq
+	 * @param picPath 图片路径
+	 */
+	public void sendPicMsg(MsgItem item, String group, String qq,String picPath);
+
 }
