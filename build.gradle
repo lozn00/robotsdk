@@ -42,7 +42,7 @@ apply plugin: 'com.jfrog.bintray'
 def siteUrl = 'https://qssq666.cn' // 修改为你的项目的主页
 def gitUrl = 'https://github.com/qssq/robotsdk' // 修改为你的Git仓库的ur
 
-version = "0.8"
+version = "1.0"
 group = "cn.qssq666" // Maven Group ID for the artifact，一般填你唯一的包名
 
 install {
@@ -164,4 +164,4 @@ bintray {
     }
 
 }
-//F:\src\git_project\qq_qqrobot>gradlew :robot_sdk:%UPLOAD%
+//F:\src\git_project\qq_qqrobot>gradlew :robot_sdk:%UPLOAD%  MAC $UPLOAD

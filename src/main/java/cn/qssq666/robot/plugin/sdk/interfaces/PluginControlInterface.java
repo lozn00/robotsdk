@@ -147,4 +147,12 @@ public interface PluginControlInterface {
 	 */
 	public void sendPicMsg(IMsgModel item, String group, String qq,String picPath);
 
+	/**
+	 * 发送万能消息 通过这个方法也可以实现禁言,踢人.
+	 * @param item
+	 * @param extra
+	 * @param type
+	 */
+	public void sendUniversalMsg(IMsgModel item,String extra,int type);
+
 }
